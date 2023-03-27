@@ -1,0 +1,617 @@
+
+
+body {
+    background-color: rgb(6, 0, 0);
+    margin: 0%;
+}
+
+.header {
+    width: 100%;
+    height: 79px;
+    background-color: #232f3e;
+    margin-top: 0%;
+    position: relative;
+}
+
+.logo {
+
+    position: absolute;
+    height: 91px;
+    width: 156px;
+    margin-left: 29px;
+    margin-top: -9px;
+    cursor: pointer;
+
+}
+
+.navigations ul li {
+    display: inline-block;
+    margin: 6px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.navigations2 ul li {
+    display: inline-block;
+    margin: 6px;
+    color: aliceblue;
+    margin-left: 329px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.navigations ul {
+    margin-left: 140px;
+    position: absolute;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.navigations ul li a {
+    color: rgba(240, 248, 255, 0.825);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.dropdown-menu {
+    margin-left: 393px;
+    position: absolute;
+    margin-top: 26px;
+    font-size: 18px;
+    color: rgba(240, 248, 255, 0.825);
+    cursor: pointer;
+}
+
+.button-try {
+    margin-left: 1150px;
+    margin-top: 26px;
+    position: absolute;
+    background: blue;
+    cursor: pointer;
+}
+
+.search img{
+height: 25px;
+width: 25px;
+margin-left: 1288px;
+margin-top: 26px;
+position: absolute;
+cursor: pointer;
+}
+
+.lang-icon img{
+    position: absolute;
+height: 30px;
+width: 30px;
+margin-left: 1320px;
+margin-top: 25px;
+cursor: pointer;
+}
+
+.en{
+    height: 27px;
+    width: 25px;
+    color: rgba(240, 248, 255, 0.825);
+    margin-left: 1360px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-top: 20px;
+position: absolute;
+font-size: 9px;
+cursor: pointer;
+}
+
+.ar1 img{
+    height: 8px;
+    width: 8px;
+    color: rgba(240, 248, 255, 0.825);
+    margin-left: 1390px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-top: 35px;
+position: absolute;
+font-size: 9px;
+}
+
+.name-icon img{
+    height: 27px;
+    width: 25px;
+    color: rgba(240, 248, 255, 0.825);
+    margin-left: 1415px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-top: 26px;
+position: absolute;
+font-size: 10px;
+cursor: pointer;
+
+}
+
+.ar2 img{
+    height: 8px;
+    width: 8px;
+    color: rgba(240, 248, 255, 0.825);
+    margin-left: 1450px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-top: 35px;
+position: absolute;
+font-size: 9px;
+}
+
+
+.sign-btn {
+    margin-left: 1147px;
+    margin-top: 21px;
+    position: absolute;
+    background-color: #0f79af;
+    border-radius: 3px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 22px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    cursor: pointer;
+
+
+
+}
+
+.sign-btn a {
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.825);
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.main-body {
+    margin: 0%;
+}
+
+.home-1 {
+    width: 100%;
+    height: 522px;
+    margin-bottom: 0%;
+}
+
+.home-2 {
+    width: 100%;
+    height: 522px;
+    margin-top: 0%;
+
+}
+
+/* --------------------------------------------------top-content-------------------------------------------------------------------------- */
+.welcome {
+    color: rgba(240, 248, 255, 0.974);
+    margin-top: -935px;
+    margin-left: 70px;
+    font-size: 22px;
+
+}
+
+.welcome h1 {
+    font-weight: 500;
+    font-family: "Amazon Ember", Arial, sans-serif;
+
+}
+
+.wel-desc {
+    color: rgba(240, 248, 255, 0.974);
+    margin-top: 27px;
+    font-size: 21px;
+    margin-left: 70px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100%;
+
+
+}
+
+.wel-desc h3 {
+    font-weight: 10;
+
+}
+
+.join-btn {
+    margin-left: 109px;
+    margin-top: 34px;
+    border-radius: 3px;
+}
+
+
+
+.join-btn a {
+    background: #0b94d8;
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.825);
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 63px;
+    padding-right: 63px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    margin-left: -37px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* ----------------------------------------------------------------sec-content------------------------------------------------------------------------ */
+
+.movie-rental {
+    color: rgba(240, 248, 255, 0.974);
+    margin-top: 358px;
+    margin-left: 800px;
+    font-size: 22px;
+}
+
+.movie-rental h1 {
+    font-weight: 500;
+    font-family: "Amazon Ember", Arial, sans-serif;
+
+}
+
+.rental-desc {
+    color: rgba(240, 248, 255, 0.974);
+    margin-top: 27px;
+    font-size: 21px;
+    margin-left: 800px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100%;
+}
+
+.rent-btn {
+    margin-left: 109px;
+    margin-top: 60px;
+    border-radius: 3px;
+
+}
+
+.rent-btn a {
+    background: #0b94d8;
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.825);
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 107px;
+    padding-right: 107px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    margin-left: 695px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+/* -----------------------------------------------------third-content---------------------------------------------------------------------------------------- */
+.third-cont {
+    background-color: #101010;
+    height: 750px;
+    width: 100%;
+    margin: 0%;
+    position: relative;
+
+
+}
+
+.th-left-cont {
+    background-color: rgba(252, 248, 248, 0.858);
+    height: 750px;
+    width: 50%;
+    position: relative;
+    margin-top: 167px;
+
+}
+
+.left-par-head {
+    font-size: 45px;
+    /* line-height: 3.1rem; */
+    color: rgba(12, 12, 12, 0.842);
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 70px;
+    font-weight: 20;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.laft-par-desc {
+    position: absolute;
+    color: rgba(12, 12, 12, 0.852);
+    margin-top: 170px;
+    font-size: 21px;
+    margin-left: 70px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100%;
+
+}
+
+.th-right-cont {
+    background-color: rgba(252, 248, 248, 0.858);
+    height: 750px;
+    width: 50%;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: -750px;
+
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    cursor: pointer;
+    margin: 0%;
+    
+}
+
+.f1-im {
+    position: absolute;
+    box-shadow: 0,0,20px,2px rgba(0, 0,0, .4);
+    transition: 1s;
+    
+}
+.f1-im:hover{
+    color: #000;
+    box-shadow: gray;
+}
+
+.lions {
+    width: 225px;
+    margin-top: 15px;
+    
+
+}
+
+.discovery {
+    width: 225px;
+    margin-top: 15px;
+    margin-left: 235px;
+}
+
+.erosnow {
+    width: 225px;
+    margin-top: 15px;
+    margin-left: 469px;
+}
+
+.f2-im {
+    position: absolute;
+}
+
+.manorama {
+    width: 225px;
+    margin-top: 179px;
+}
+
+.hoichoi {
+    width: 225px;
+    margin-top: 179px;
+    margin-left: 235px;
+}
+
+.hayu {
+    width: 225px;
+    margin-top: 179px;
+    margin-left: 469px;
+}
+
+.f3-im {
+    position: absolute;
+}
+
+.shortstv {
+    width: 225px;
+    margin-top: 343px;
+}
+
+.docubay {
+    width: 225px;
+    margin-top: 343px;
+    margin-left: 235px;
+}
+
+.mubi {
+    width: 225px;
+    margin-top: 343px;
+    margin-left: 469px;
+}
+
+.f4-im {
+    position: absolute;
+}
+
+.erosnow2 {
+    width: 225px;
+    margin-top: 513px;
+}
+
+.lion2 {
+    width: 225px;
+    margin-top: 513px;
+    margin-left: 235px;
+}
+
+.discov {
+    width: 225px;
+    margin-top: 513px;
+    margin-left: 470px;
+}
+
+/* -----------------------------------------------------------fourth---------------------------------------------------------------------------------- */
+
+.tv-stick {
+    color: rgba(240, 248, 255, 0.974);
+    margin-top: 100px;
+    margin-left: 800px;
+    font-size: 22px;
+    position: absolute;
+}
+
+.tv-stick h1 {
+    font-weight: 500;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-top: -720px;
+
+}
+
+.stick-desc {
+    color: rgba(240, 248, 255, 0.974);
+    margin-top: -527px;
+    font-size: 21px;
+    margin-left: 800px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100%;
+    position: absolute;
+}
+
+.fourth-cont img {
+    position: relative;
+    width: 100%;
+    margin-top: -68px;
+}
+
+.start-btn {
+    margin-left: 109px;
+    margin-top: 34px;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.start-btn a {
+    position: absolute;
+    background: #0b94d8;
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.825);
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 107px;
+    padding-right: 107px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 85px;
+    margin-left: 695px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: -430px;
+}
+
+/* -------------------------------------------------------------------fifth-------------------------------------------------------------------- */
+
+.fam-friendly{
+    color: rgba(240, 248, 255, 0.974);
+    margin-top: 100px;
+    margin-left: 800px;
+    font-size: 22px;
+    position: absolute;
+}
+.fifth-cont img{
+    position: relative;
+    width: 100%;
+    margin-top: -190px;
+}
+.fam-friendly h1{
+    font-weight: 500;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-top: -708px;
+    margin-left: -735px;
+
+}
+.fam-desc{
+    color: rgba(240, 248, 255, 0.974);
+    margin-top: -527px;
+    font-size: 21px;
+    margin-left: 70px;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100%;
+    position: absolute;
+}
+.get-srt2{
+    margin-left: 109px;
+    margin-top: 60px;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.get-srt2 a{
+    position: absolute;
+    background: #0b94d8;
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.825);
+    font-size: 17px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    padding-left: 107px;
+    padding-right: 107px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 85px;
+    margin-left: -38px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: -430px;
+}
+
+/* ------------------------------------------footer-------------------------------------------------------------------------------- */
+
+.footer{
+    position: absolute;
+    background: rgba(12, 12, 12, 0.985);
+    margin-top: -126px; 
+    height: 200px;
+    width: 100%;
+    margin-bottom: 0%;
+}
+.footer-img{
+    margin-left: 45%;
+    margin-top: 26px;
+}
+.notice{
+    position: absolute;
+    margin-left: 570px;
+    } 
+.notice a{
+    text-decoration: none;
+    color: #0b94d8;
+}
+.feedback{
+    position: absolute;
+    margin-left: 750px;
+}
+.feedback a{
+    text-decoration: none;
+    color: #0b94d8;
+}
+.help{
+    position: absolute;
+    margin-left: 880px;
+}
+.help a{
+    text-decoration: none;
+    color: #0b94d8;
+
+}
+.disc{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 590px;
+}
+.disc a{
+    text-decoration: none;
+    color: gray;
+}
+
+    
